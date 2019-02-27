@@ -24,5 +24,16 @@ namespace P2LectureWPF
         {
             InitializeComponent();
         }
+
+        private void BtnDB_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BtnAPI_Click(object sender, RoutedEventArgs e)
+        {
+
+
+        }
     }
 }

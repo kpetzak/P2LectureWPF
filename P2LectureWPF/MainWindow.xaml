@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:P2LectureWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="Main" Height="450" Width="800">
+    <Grid x:Name="MainForm">
+        <Button x:Name="btnDB" Click="BtnDB_Click" Content="Database Connectivity" HorizontalAlignment="Left" Margin="58,54,0,0" VerticalAlignment="Top" Width="150" Height="32"/>
+        <Button x:Name="btnAPI" Content="API" HorizontalAlignment="Left" Margin="58,102,0,0" VerticalAlignment="Top" Width="150" Height="33" Click="BtnAPI_Click"/>
+
     </Grid>
 </Window>
